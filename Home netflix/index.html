@@ -3,38 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Netflix Italia - Guarda serie tv online, guarda film online</title>
-    <link rel="shortcut icon" href="assets/icons8-netflix.svg">
-    <link rel="stylesheet" href="../WEB DEVELOPER/Font/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="shortcut icon" href="../assets/icons8-netflix.svg">
+    <link rel="stylesheet" href="../../WEB DEVELOPER/Font/fontawesome-free-5.15.3-web/css/all.min.css">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <main>
+        <div class="first-line">
     <header>
         <nav>
-            <h1><a href="assets/icons8-netflix.svg">Netflix</a></h1>
+            <h1><a href="assets/icons8-netflix.svg" class="title-netflix">Netflix</a></h1>
         </nav>
-        <i class="fa fa-1x fa-globe"></i>
             <select name="language" id="language">
                     <option lang="It" value="Italiano">Italiano</option>
                     <option lang="eg" value="English">English</option>
             </select>
-        
             <button value="sing-in">Accedi</button>
-    </header>
-    <main>
-        <h1>Film, serie TV e tanto altro. Senza limiti.</h1>
-        <p>Guarda ciò che vuoi ovunque. Disdici quando vuoi.</p>
+        </header>
+            <div class="container">
+        <h1>Film, serie TV e tanto altro. <br>Senza limiti.</h1>
+        <h2>Guarda ciò che vuoi ovunque. Disdici quando vuoi.</h2>
         <span>Vuoi guardare Netflix? Inserisci l'indirizzo email
               per abbonarti o riattivare il tuo abbonamento.</span><br><br>
               <form action="#">
               <label for="email">
                   <input type="email" id="email" name="email" required />
-                  <button type="start" >Inizia ></button>
+                  <button type="start" id="start">Inizia ></button>
               </label>
               </form>
-              <br>
-              <br>
+              </div>
+              </div>
               <hr>
               <article>
                   <h2>Goditi Netflix sulla tua TV.</h2>
@@ -44,10 +44,7 @@
                     e molti altri dispositivi.</p>
                     <figure>
                     <img alt="immagine Tv" class="our-story-card-img" 
-                    src="immagini/tv.png"/>
-                    <video autoplay=""  muted="" loop="">
-                    <source src="Video/video-tv-0819.m4v" 
-                    type="video/mp4"/></video>
+                    src="../immagini/tv.png"/>
                 </figure>
               <br>
               <hr>
@@ -55,10 +52,8 @@
               <p>Salva facilmente i tuoi preferiti così
                  avrai sempre qualcosa da guardare.</p>
                  <figure>
-                 <img alt=""  
-                 src="immagini/mobile-0819.jpg"/>
-                 <img alt="Stangers-Things" 
-                 src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"/>
+                 <img alt="Stangers-Things"  
+                 src="../immagini/mobile-0819.jpg"/>
                 <div id="" class="text-0" data-uia="">Stranger Things
                 <div id="" class="text-1" data-uia="">Download in corso... <i class="fas fa-download"></i>
                 </div>
@@ -72,10 +67,7 @@
                     e serie TV senza limiti e senza spendere di
                     più.</p>
                    <figure>
-                       <img alt="" src="immagini/device-pile.png">
-                       <video autoplay="" muted="" loop="">
-                           <source src="Video/video-devices.m4v">
-                       </video>
+                       <img alt="device" src="../immagini/device-pile.png">
                    </figure>
                  <br>
                  <hr>
@@ -85,8 +77,8 @@
                     in uno spazio tutto loro già incluso nel
                     tuo abbonamento.</p>
                         <figure>
-                            <img alt="" 
-                            src="immagini/AAAABbh8I7sjWYNz2f8_bqyLdqQqR5AfT7VDHCKvURfq4-D-a7r0fnLYR01-_teQH4fX1NctSxg5EVZ_cX0tjuzKbmdUvLab.png">
+                            <img alt="children" 
+                            src="../immagini/AAAABbh8I7sjWYNz2f8_bqyLdqQqR5AfT7VDHCKvURfq4-D-a7r0fnLYR01-_teQH4fX1NctSxg5EVZ_cX0tjuzKbmdUvLab.png">
                         </figure>
                     <br>
                     <hr>
